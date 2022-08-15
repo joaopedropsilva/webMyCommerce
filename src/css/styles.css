@@ -57,7 +57,7 @@ body{
     text-align: center;
     min-width: 30rem;
 
-    padding: 2em;
+    padding: 1em;
 }
 
 .services__title{
@@ -67,18 +67,43 @@ body{
 }
 
 .services__card-box{
+    font-size: 1.3rem;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     gap: 1em;
+    max-width: 42.5rem;
+
+    padding: 1em;
 }
 
-.services__card-box__card{
+.services__card{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    gap: 0.3rem;
     width: 100%;
     min-height: 10rem;
 
+    padding: 1em;
     border-radius: 1rem;
     background-color: rgba(252, 163, 17, 1);
+}
+
+.services__card__icon{
+    font-size: 32px;
+}
+
+.services__card__title{
+    font-size: 1.5rem;
+
+    padding: 0.2em;
+}
+
+.services__card__description{
+    font-size: 1.7ch;
+
+    padding: 0.5em;
 }
 
 .footer{
