@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: auto;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
 
     padding: 1em;
 
-    background-color: rgba(229, 229, 229, 1)
+    background-color: rgba(252, 163, 17, 1)
 }
 
 .header__logo{
@@ -31,3 +32,58 @@ body{
     font-size: 1.3rem;
 }
 
+.call-to-action__box{
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-width: 30rem;
+
+    padding: 1em;
+}
+
+.call-to-action__box__img{
+    width: 80%;
+}
+
+.call-to-action__box__text{
+    font-size: 2ch;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services{
+    font-size: 1rem;
+    text-align: center;
+    min-width: 30rem;
+
+    padding: 2em;
+}
+
+.services__title{
+    font-size: 2rem;
+
+    padding: 1em;
+}
+
+.services__card-box{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.services__card-box__card{
+    width: 100%;
+    min-height: 10rem;
+
+    border-radius: 1rem;
+    background-color: rgba(252, 163, 17, 1);
+}
+
+.footer{
+    font-size: 1.5ch;
+    text-align: center;
+
+    padding: 0.5em;
+}
