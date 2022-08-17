@@ -131,5 +131,8 @@ body{
     font-size: 1.5ch;
     text-align: center;
 
-    padding: 0.5em;
+    padding: 2em;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
 }
