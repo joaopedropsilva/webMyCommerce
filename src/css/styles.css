@@ -73,7 +73,7 @@ body{
     text-align: center;
 }
 
-.services, .social-proof{
+.services, .social-proof, .contact-us{
     font-size: 1rem;
     text-align: center;
     min-width: 30rem;
@@ -81,13 +81,13 @@ body{
     padding: 1em;
 }
 
-.services__title, .social-proof__title{
+.services__title, .social-proof__title, .contact-us__form__title{
     font-size: 2.3rem;
 
     padding: 1em;
 }
 
-.services__card-box{
+.services__card-box, .contact-us__form{
     font-size: 1.3rem;
     display: flex;
     flex-flow: column nowrap;
@@ -166,6 +166,73 @@ body{
 
     padding: 0.1em;
     margin: 0;
+}
+
+.contact-us__form-box{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    margin: 0;
+}
+
+.contact-us__form-box__img{
+    display: none;
+}
+
+.contact-us__form{
+    width: 100%;
+
+    margin: 0;
+
+    border-radius: 1.5rem;
+
+    background-color: rgba(252, 163, 17, 1);
+}
+
+.contact-us__form__title{
+    padding: 0.5em;
+}
+
+.contact-us__form__input{
+    width: 100%;
+
+    padding: 0.8em;
+
+    border: none;
+    border-radius: 0.5em;
+}
+
+.contact-us__form__input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-us__form__text-area{
+    resize: none;
+    width: 100%;
+    min-height: 30%;
+
+    padding: 0.8em;
+
+    border: none;
+    border-radius: 0.5em;
+}
+
+.contact-us__form__text-area::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-us__form__button{
+    width: 30%;
+    padding: 0.5em;
+
+    border: none;
+    border-radius: 0.3rem;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .footer{
