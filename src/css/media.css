@@ -1,0 +1,75 @@
+.social-proof, .contact-us{
+    padding: 1.5em;
+}
+
+@media screen and (min-width: 768px){
+    .header__logo__text{
+        font-size: 3rem;
+    }
+
+    .header__logo__click-icon{
+        width: 12%;
+        height: 12%;
+    }
+
+    .header__subtitle{
+        font-size: 1.8rem;
+    }
+
+    .call-to-action__box__img{
+        width: 75%;
+    }
+
+    .call-to-action__box__text{
+        font-size: 4ch;
+        width: 90%;
+
+        margin-bottom: 10rem;
+    }
+
+    .services{
+        margin-bottom: 10rem;
+    }
+
+    .services__title, .social-proof__title{
+        font-size: 3rem;
+    }
+    
+
+    .services__card__title{
+        font-size: 2rem;
+    }
+
+    .services__card__description{
+        font-size: 2.3ch;
+    }
+
+    .social-proof__card__opinion{
+        font-size: 3ch;
+    }
+
+    .contact-us{
+        margin: 10rem 0;
+    }
+
+    .contact-us__form__title{
+        font-size: 3rem;
+    }
+
+    .contact-us__form__input{
+        padding: 1.5em;
+    }
+
+    .contact-us__form__input::placeholder, .contact-us__form__text-area::placeholder{
+        font-size: 1.8rem;
+    }
+
+    .contact-us__form__button{
+        font-size: 1.8rem;
+        width: 40%;
+    }
+
+    .footer{
+        font-size: 2ch;
+    }
+}
