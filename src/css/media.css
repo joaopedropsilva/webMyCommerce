@@ -73,3 +73,29 @@
         font-size: 2ch;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .header__logo__click-icon{
+        width: 8%;
+        height: 8%;
+    }
+    .header__logo__text{
+        font-size: 2.8rem;
+    }
+
+    .call-to-action__box__img{
+        width: 60%;
+    }
+
+    .call-to-action__box__text{
+        font-size: 3.5ch;
+        width: 70%;
+    }
+
+    .social-proof__card-box{
+        display: grid;
+        grid-template: auto auto auto / auto auto;
+
+        margin-bottom: 10rem;
+    }
+}
