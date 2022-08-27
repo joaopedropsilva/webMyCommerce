@@ -53,14 +53,17 @@ body{
     font-size: 1.3rem;
 }
 
-.call-to-action__box{
+.call-to-action{
     font-size: 1.3rem;
+
+    padding: 1em;
+}
+
+.call-to-action__box{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     min-width: 30rem;
-
-    padding: 1em;
 }
 
 .call-to-action__box__img{
