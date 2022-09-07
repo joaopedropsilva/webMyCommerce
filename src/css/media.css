@@ -99,3 +99,72 @@
         margin-bottom: 10rem;
     }
 }
+
+@media screen and (min-width: 1440px){
+    .header__logo__click-icon {
+        width: 5%;
+        height: 5%;
+    }
+
+    .call-to-action__box{
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .call-to-action__box__img{
+        width: 45%;
+
+        margin: 0;
+    }
+
+    .call-to-action__box__text{
+        font-size: 7ch;
+        width: 45%;
+
+        margin: 0;
+    }
+
+    .services__title, .social-proof__title{
+        font-size: 4rem;
+        
+        padding: 0.8em;
+    }
+
+    .services__card-box{
+        flex-flow: row nowrap;
+        gap: 1.5em;
+        max-width: 102.4rem;
+    }
+
+    .services__card{
+        min-height: 32rem;
+    }
+    
+    .services__card__icon{
+        font-size: 64px;
+    }
+
+    .services__card__title{
+        font-size: 2.5rem;
+    }
+
+    .services__card__description{
+        font-size: 2.5ch;
+    }
+
+    .social-proof__card-box{
+        grid-gap: 1.5rem;
+    }
+
+    .social-proof__card{
+        max-width: 50rem;
+    }
+
+    .social-proof__card__icon{
+        font-size: 64px;
+    }
+
+    .social-proof__card__opinion{
+        font-size: 3.3ch;
+    }
+}
