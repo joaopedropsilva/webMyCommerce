@@ -167,4 +167,43 @@
     .social-proof__card__opinion{
         font-size: 3.3ch;
     }
+
+    .contact-us__form-box{
+        gap: 2rem;
+    }
+
+    .contact-us__form-box__img{
+        display: block;
+        width: 40%;
+        
+        margin: auto 0;
+    }
+
+    .contact-us__form{
+        font-size: 1.5rem;
+        min-height: 42.5rem;
+    }
+
+    .contact-us__form__title{
+        font-size: 3.5rem;
+    }
+
+    .contact-us__form__input, .contact-us__form__text-area{
+        margin: 0;
+    }
+
+    .contact-us__form__button{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1800px){
+    .call-to-action__box__img{
+        width: 40%;
+        max-width: 80rem;
+    }
+    .contact-us__form-box__img{
+        max-width: 80rem;
+    }
 }
