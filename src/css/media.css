@@ -92,6 +92,18 @@
         width: 70%;
     }
 
+    .services__card, .social-proof__card, .contact-us__form__button{
+        transition: scale 200ms ease;
+    }
+
+    .services__card:hover, .contact-us__form__button:hover{
+        scale: 1.05;
+    }
+
+    .social-proof__card:hover{
+        scale: 1.02;
+    }
+
     .social-proof__card-box{
         display: grid;
         grid-template: auto auto auto / auto auto;
